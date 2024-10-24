@@ -1,0 +1,11 @@
+public class test 
+{
+  public String getPosition()
+  {
+    ADIS16470_IMU imu = new ADIS16470_IMU();
+    double yaw = imu.getAngle();
+    double speedX = imu.getAccelX();
+    double speedY = imu.getAccelY();
+    
+  }
+}
